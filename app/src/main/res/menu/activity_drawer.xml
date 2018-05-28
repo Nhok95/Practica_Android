@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/add_new"
+            android:icon="@drawable/ic_menu_add"
+            android:title="Nueva Película" />
+        <item
+            android:id="@+id/search_actor"
+            android:icon="@drawable/ic_search_black"
+            android:title="@string/menu_search" />
+    </group>
+
+    <item android:title="Visualización de las películas">
+        <menu>
+            <item
+                android:id="@+id/main"
+                android:icon="@drawable/ic_lista"
+                android:title="Título" />
+            <item
+                android:id="@+id/recycler"
+                android:icon="@drawable/ic_recycler_list"
+                android:title="Año de estreno" />
+        </menu>
+    </item>
+
+
+</menu>

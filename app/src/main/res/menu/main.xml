@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/menu_search"
+        android:title="@string/menu_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+
+    <item android:title="Help">
+        <menu>
+            <item
+                android:id="@+id/action_help1"
+                android:orderInCategory="100"
+                android:title="@string/action_help1"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_help2"
+                android:orderInCategory="100"
+                android:title="@string/action_help2"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_help3"
+                android:orderInCategory="100"
+                android:title="@string/action_help3"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_help4"
+                android:orderInCategory="100"
+                android:title="@string/action_help4"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_help5"
+                android:orderInCategory="100"
+                android:title="@string/action_help5"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+
+</menu>

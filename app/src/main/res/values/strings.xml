@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MyFilms</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_help1">Añadir</string>
+    <string name="action_help2">Buscar por actor</string>
+    <string name="action_help3">Visualización simple</string>
+    <string name="action_help4">Visualización avanzada</string>
+    <string name="action_help5">Opciones de pelicula</string>
+    <string name="action_about">About</string>
+    <string name="action_delete">Delete</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="new_critic">Nueva crítica</string>
+    <string name="modificar">Modificar</string>
+    <string name="menu_search">Buscar por actor</string>
+
+    <string-array name="opciones">
+        <item>Detalles</item>
+        <item>Valorar</item>
+        <item>Eliminar</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
